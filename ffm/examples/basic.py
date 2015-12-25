@@ -1,4 +1,4 @@
-import graphlab as gl
+#import graphlab as gl
 import ffm
 from convert import read_libffm_file
 

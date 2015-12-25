@@ -1,8 +1,8 @@
 CXX := g++
 CXXFLAGS := -O3 -std=c++11 -I ../sdk -shared -fPIC -march=native
 
-DFLAG += -DUSEOMP
-CXXFLAGS += -fopenmp
+#### DFLAG += -DUSEOMP
+#### CXXFLAGS += -fopenmp
 
 
 UNAME_S := $(shell uname -s)
